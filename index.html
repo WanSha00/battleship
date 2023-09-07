@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/xolonium" type="text/css"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Battleship</title>
+</head>
+<body>
+
+    <div class="splash-container">
+        <h1 class="splash-title">BATTLESHIP</h1>
+        <button id="start-button">START</button>
+        <div id="game-info">
+            <p><span id="turn-display"></span></p>
+            <p><span id="info-display"></span></p>
+            <p><span class="player-ships-info player"></span></p>
+            <p><span class="cpu-ships-info cpu"></span></p>
+        </div>
+    </div>
+
+    
+
+    <div id="gamesboard-container"></div>
+
+    <div class="setup">
+
+        <button id="flip-button">FLIP SHIP</button>
+
+        <div class="option-container">
+
+            <div id="0" class="ship destroyer-preview destroyer" draggable="true"></div>
+            <div id="1" class="ship submarine-preview submarine" draggable="true"></div>
+            <div id="2" class="ship cruiser-preview cruiser" draggable="true"></div>
+            <div id="3" class="ship battleship-preview battleship" draggable="true"></div>
+            <div id="4" class="ship carrier-preview carrier" draggable="true"></div>
+    
+        </div>
+    
+       
+
+    </div>
+   
+   
+</body>
+</html>
